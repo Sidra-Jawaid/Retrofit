@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.sidrajawaid.democustomdialogwithlist">
+=======
+    package="com.example.sidrajawaid.democustomactionbar">
+>>>>>>> 1bc8cd154703fe6681baa184e0d3c6daffc3c960
 
     <application
         android:allowBackup="true"
