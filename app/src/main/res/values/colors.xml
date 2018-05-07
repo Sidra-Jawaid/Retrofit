@@ -3,8 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+<<<<<<< HEAD
     <color name="two">#E0E0E0</color>
     <color name="three">#9E9E9E</color>
     <color name="four">#424242</color>
     <color name="one">#EEEEEE</color>
+=======
+>>>>>>> e2b9c9c2405317752ce792f1972680a0af094d45
 </resources>

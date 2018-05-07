@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<<<<<<< HEAD
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 1bc8cd154703fe6681baa184e0d3c6daffc3c960
+>>>>>>> e2b9c9c2405317752ce792f1972680a0af094d45
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".MainActivity">
 
    <android.support.v7.widget.RecyclerView
@@ -12,3 +21,49 @@
        android:layout_height="match_parent"/>
 
 </RelativeLayout>
+=======
+<<<<<<< HEAD
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+=======
+    android:id="@+id/frame"
+    tools:context=".MainActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar"
+        android:background="@android:color/darker_gray"
+        android:theme="@style/Theme.AppCompat.Light"
+        app:titleMarginBottom="@dimen/cardview_compat_inset_shadow"
+        android:layout_height="?attr/actionBarSize">
+    </android.support.v7.widget.Toolbar>
+
+    <!--<FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentLeft="true">-->
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="this is a demno app for custom action bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    <!--</FrameLayout>-->
+
+</FrameLayout>
+>>>>>>> 1bc8cd154703fe6681baa184e0d3c6daffc3c960
+>>>>>>> e2b9c9c2405317752ce792f1972680a0af094d45
